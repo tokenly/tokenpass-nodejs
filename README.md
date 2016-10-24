@@ -1,6 +1,6 @@
 ## OAuth Application
 
-Create OAuth application for Tokenpass. For Tokenpass set the callback url to be `http://localhost:3004/connect/tokenpass/callback`, for Facebook set the application domain to be `localhost`
+Create OAuth application for Tokenpass. For Tokenpass set the callback url to be `http://localhost:3004/connect/tokenpass/callback`, for Tokenpass set the application domain to be `localhost`
 
 ## Configure
 
