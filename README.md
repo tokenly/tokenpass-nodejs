@@ -1,6 +1,6 @@
 ## OAuth Application
 
-Create OAuth application for Facebook and Twitter. For Twitter set the callback url to be `http://localhost:3004/connect/tokenpass/callback`, for Facebook set the application domain to be `localhost`
+Create OAuth application for Tokenpass. For Tokenpass set the callback url to be `http://localhost:3004/connect/tokenpass/callback`, for Facebook set the application domain to be `localhost`
 
 ## Configure
 
@@ -15,4 +15,4 @@ $ node app.js
 
 ## Start the Flow
 
-To start the OAuth flow for Tokenpass navigate to `http://localhost:3004/connect/facebook` in your browser
+To start the OAuth flow for Tokenpass navigate to `http://localhost:3004/connect/tokenpass` in your browser
