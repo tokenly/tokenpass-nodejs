@@ -4,7 +4,6 @@ var session = require('express-session')
 var Tokenpass = require('tokenpass-express')
 var tokenpass = new Tokenpass(require('./config.json'))
 
-console.log(tokenpass)
 var app = express()
 app.use(logger('dev'))
 // REQUIRED:
