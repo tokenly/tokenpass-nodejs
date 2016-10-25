@@ -1,0 +1,21 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "localhost:3000",
+    "state": true
+  },
+  "tokenpass": {
+	"authorize_url": "https://tokenpass.tokenly.com/oauth/authorize",
+    "access_url": "https://tokenpass.tokenly.com/oauth/access-token",
+    "base_url": "https://tokenpass.tokenly.com/oauth/",
+    "oauth": 2,
+    "key": "IKtOAjbjRcUPKtnSogji5W2RSe6u94IC",
+    "secret": "Ky0PTNqNzT7LhIxwaj4QcRfxg9iHlpGbqV3SiJeK",
+    "callback": "/handle_tokenpass_callback",
+    "redirect_uri": "http://localhost:3000/connect/tokenpass/callback",
+    "scope": [
+      "user",
+      "tca"
+    ]
+  }
+}
