@@ -1,0 +1,20 @@
+{
+  "name": "tokenpass-api-demo",
+  "version": "0.0.0",
+  "description": "Tokenpass Api Example",
+  "private": true,
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/tokenly/tokenpass-nodejs",
+  "author": "Ratinder <ratinder6785@gmail.com> (https://github.com/tokenly/tokenpass-nodejs)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokenly/tokenpass-nodejs.git"
+  },
+  "dependencies": {
+    "express": "4.4.4",
+    "express-session": "1.5.1",
+    "morgan": "1.1.1"
+  },
+  "main": "app.js"
+}
